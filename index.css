@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    height: 700px;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcyan;
+}
+
+.main_section1 {
+    width: 45%;
+    height: 60%;
+    margin: 30px;
+    padding: 50px 20px 0 30px;  
+}
+
+.main_section2{
+    height: 600px;
+    width: 600px;
+    padding: 35px;
+    background-color: white;
+}
+
+.main_section1 h1 {
+    margin-bottom: 30px;
+}
+
+.main_section1 p {
+   font-weight: normal;
+}
+
+.First_section, .Second_section, .Third_section {
+    display: flex;
+}
+
+.for_input {
+    width: 250px;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    
+}
+
+#dob {
+    padding-left: 15px;
+}
+
+.for_input2 {
+    width: 97.5%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+form > p {
+    text-align: center;
+}
+
+.circle {
+    margin-bottom: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: conic-gradient(
+      yellow 0deg 90deg,
+      rgba(30, 128, 0, 0.671) 90deg 180deg,
+      rgb(0, 0, 255) 180deg 270deg,
+      pink 270deg 360deg
+      
+    );
+  }
+
+  button {
+    background-color: lightseagreen;
+    color: white;
+    border-style: none;
+  }
+
+  a {
+    color: lightseagreen;
+  }
+
+
+  @media (min-width: 390px) and (max-width: 690px){
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    
+   }
