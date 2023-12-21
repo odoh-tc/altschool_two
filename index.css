@@ -78,16 +78,16 @@ form > p {
     height: 50px;
     border-radius: 50%;
     background: conic-gradient(
-      yellow 0deg 90deg,
-      rgba(30, 128, 0, 0.671) 90deg 180deg,
-      rgb(0, 0, 255) 180deg 270deg,
-      pink 270deg 360deg
+        #3CBDB2 0deg 90deg,
+        #9ECD43 90deg 180deg,
+      #FFC624 180deg 270deg,
+      #F37920 270deg 360deg
       
     );
   }
 
   button {
-    background-color: lightseagreen;
+    background-color:#2EC4B6;
     color: white;
     border-style: none;
   }
